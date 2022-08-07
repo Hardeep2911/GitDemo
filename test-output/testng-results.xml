@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="3" ignored="0" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10843" started-at="2022-08-04T07:58:35 IST" finished-at="2022-08-04T07:58:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10843" started-at="2022-08-04T07:58:35 IST" finished-at="2022-08-04T07:58:46 IST">
+      <class name="ExtentReport.ExtentReport1st">
+        <test-method status="PASS" signature="config()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="config" is-config="true" duration-ms="384" started-at="2022-08-04T07:58:35 IST" finished-at="2022-08-04T07:58:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="FAIL" signature="titleValidation()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="titleValidation" duration-ms="7957" started-at="2022-08-04T07:58:35 IST" finished-at="2022-08-04T07:58:43 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [QAClickJet - Flight Booking for Domestic and International, Cheap Air Ticket] but found [QAClickJet - Flight Booking for Domestic and International, Cheap Air Tickets]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [QAClickJet - Flight Booking for Domestic and International, Cheap Air Ticket] but found [QAClickJet - Flight Booking for Domestic and International, Cheap Air Tickets]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at ExtentReport.ExtentReport1st.titleValidation(ExtentReport1st.java:76)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="tearDownn(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="tearDownn" is-config="true" duration-ms="454" started-at="2022-08-04T07:58:43 IST" finished-at="2022-08-04T07:58:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleValidation status=FAILURE method=ExtentReport1st.titleValidation()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method status="FAIL" signature="validateUrl()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="validateUrl" duration-ms="67" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at ExtentReport.ExtentReport1st.validateUrl(ExtentReport1st.java:131)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUrl -->
+        <test-method status="PASS" signature="tearDownn(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="tearDownn" is-config="true" duration-ms="430" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateUrl status=FAILURE method=ExtentReport1st.validateUrl()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method status="PASS" signature="AnormalMethod()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="AnormalMethod" duration-ms="3" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AnormalMethod -->
+        <test-method status="PASS" signature="tearDownn(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="tearDownn" is-config="true" duration-ms="1" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AnormalMethod status=SUCCESS method=ExtentReport1st.AnormalMethod()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method status="PASS" signature="BnormalMethod2()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="BnormalMethod2" duration-ms="1" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BnormalMethod2 -->
+        <test-method status="PASS" signature="tearDownn(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="tearDownn" is-config="true" duration-ms="1" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BnormalMethod2 status=SUCCESS method=ExtentReport1st.BnormalMethod2()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method status="FAIL" signature="CnormalMethod1()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="CnormalMethod1" duration-ms="1" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:44 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at ExtentReport.ExtentReport1st.CnormalMethod1(ExtentReport1st.java:110)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CnormalMethod1 -->
+        <test-method status="PASS" signature="tearDownn(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="tearDownn" is-config="true" duration-ms="383" started-at="2022-08-04T07:58:44 IST" finished-at="2022-08-04T07:58:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CnormalMethod1 status=FAILURE method=ExtentReport1st.CnormalMethod1()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownn -->
+        <test-method status="SKIP" signature="logoTest()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="logoTest" duration-ms="0" started-at="2022-08-04T07:58:45 IST" depends-on-methods="ExtentReport.ExtentReport1st.titleValidation" finished-at="2022-08-04T07:58:45 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExtentReport1st.logoTest()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExtentReport1st.logoTest()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="stopMonitoring()[pri:0, instance:ExtentReport.ExtentReport1st@543c6f6d]" name="stopMonitoring" is-config="true" duration-ms="1099" started-at="2022-08-04T07:58:45 IST" finished-at="2022-08-04T07:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopMonitoring -->
+      </class> <!-- ExtentReport.ExtentReport1st -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

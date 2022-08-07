@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ExtentReport.ExtentReport1st">
+        <methods>
+          <include name="validateUrl"/>
+          <include name="logoTest"/>
+          <include name="stopMonitoring"/>
+          <include name="CnormalMethod1"/>
+          <include name="config"/>
+          <include name="tearDownn"/>
+          <include name="titleValidation"/>
+        </methods>
+      </class> <!-- ExtentReport.ExtentReport1st -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
