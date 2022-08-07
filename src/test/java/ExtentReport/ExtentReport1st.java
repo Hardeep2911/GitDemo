@@ -108,6 +108,7 @@ public class ExtentReport1st {
 	{
 		test = extent.createTest("Cnormalmethod1");
 		Assert.assertTrue(false);
+		System.out.println("This is 1st user commit");
 
 	}
 	
