@@ -54,7 +54,7 @@ public class ExtentReport1st {
 	extent.setSystemInfo("Tester", "Hardeep Singh");
 	extent.setSystemInfo("Environment", "QA");
 	extent.setSystemInfo("BrowserName", "Chrome");
-	
+	System.out.println("This is git testing");
 		
 	}
 	
